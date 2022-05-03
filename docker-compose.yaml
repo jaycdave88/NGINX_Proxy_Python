@@ -7,7 +7,7 @@ services:
       - ~/sandbox.docker.env
     environment:
       - DD_APM_ENABLED=true
-      - DD_API_KEY=99a412b753e4c37294240889d4ce9060
+      - DD_API_KEY= {API_KEY}
       - DD_LOGS_ENABLED=true 
       - DD_LOGS_CONFIG_CONTAINER_COLLECT_ALL=true
       - DD_APM_NON_LOCAL_TRAFFIC=true 
