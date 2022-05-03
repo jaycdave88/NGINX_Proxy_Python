@@ -22,7 +22,7 @@ log_format with_trace_id '$remote_addr - $http_x_forwarded_user [$time_local] "$
 
 # STEPS:
 
-1. Make sure you have `sandbox.docker.env` in your `~/` directory following [these instructions](https://github.com/DataDog/sandbox#start-any-vm-in-2-min)
+1. Make sure you set `DD_API_KEY` in your `docker-compose.yaml` file.
 2. Run `docker-compose build` to build the docker image
 3. Run `docker-compose up` to spin up the containers
 4. Open Chrome and hit `http://localhost:80`
